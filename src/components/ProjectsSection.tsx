@@ -11,6 +11,14 @@ const projects = [
     github: "https://github.com/chaima1912/SafeSense.git",
   },
   {
+    title: "CalmPulse",
+    subtitle: "Smart IoT + AI Stress Monitoring System",
+    description: "Smart IoT + AI system designed to monitor and respond to stress in real time. Collects physiological data (BPM & SpO2) using MAX30102 + ESP32, applies signal filtering, transmits data via MQTT, uses AI-based logic to detect stress levels, and displays everything in a Flutter mobile app with animated heart and automatic breathing exercises.",
+    tech: ["ESP32", "MAX30102", "MQTT", "Flutter", "AI", "IoT", "Real-time Monitoring"],
+    icon: Heart,
+    github: "https://github.com/chaima1912/CalmPulse.git",
+  },
+  {
     title: "Smart Greenhouse Controller",
     subtitle: "Automated Environmental Control System",
     description: "Embedded system project built using Arduino Uno for environmental monitoring and automated greenhouse condition control. Microcontroller-based system design with environmental sensors and embedded programming.",
